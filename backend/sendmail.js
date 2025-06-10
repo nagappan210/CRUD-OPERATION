@@ -15,7 +15,8 @@ const sendMailToUser = async (name,email)=>{
       subject: 'Welcome to My App',
       text: `Hello ${name}, welcome to My App!`,
       html: `
-        <h2>Hello ${name}, </h2>
+        <h2>Hello ${name}, </h2>  
+        
         <p>Thanks for joining <b>My App</b>.</p>
         <p>We’re happy to have you on board!</p>
       `
