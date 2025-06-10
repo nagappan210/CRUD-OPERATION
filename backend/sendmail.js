@@ -9,6 +9,7 @@ const transport = nodemailer.createTransport({
 
 const sendMailToUser = async (name,email)=>{
   try{
+    const w="dnjksad"
     const info = await transport.sendMail({
       from : '"My App"<s.nagappan.6.9.2003@gmail.com>',
       to: email, 
